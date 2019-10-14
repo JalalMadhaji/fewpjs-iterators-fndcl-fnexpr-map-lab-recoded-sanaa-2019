@@ -13,7 +13,7 @@ const tutorials = [
 
 const titleCased = () => {
   return tutorials.map((row)=>{
-    let wordArr = row.toLowerCase().splite(' ');
+    let wordArr = row.toLowerCase().split(' ');
     let editedRow = wordArr.map(word => word.charAt(0).toUpperCase() + word.substring(1));
     return editedRow.join(' ');
   });
