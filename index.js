@@ -18,3 +18,4 @@ const titleCased = () => {
     return editedRow.join(' ');
   });
 }
+console.log(titleCased);
